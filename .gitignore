@@ -1,0 +1,24 @@
+**/bin/
+**/obj/
+
+# Ignore Visual Studio specific files
+**/.vs/
+**/*.suo
+**/*.user
+**/*.userosscache
+**/*.sln.docstates
+
+# Ignore Visual Studio Code specific files
+**/.vscode/
+**/*.code-workspace
+
+# Ignore build results
+**/out/
+**/dist/
+
+# Ignore logs
+**/*.log
+
+
+**/.DS_Store
+

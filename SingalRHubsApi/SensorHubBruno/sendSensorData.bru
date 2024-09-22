@@ -1,0 +1,19 @@
+meta {
+  name: sendSensorData
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:5208/sendSensorData
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "sensorId": "b086e621-9e70-4d63-94fc-f0d60c35fc7b",
+    "sensorName": "TemperatureSensor",
+    "sensorData": 25.5
+  }
+}

@@ -1,0 +1,6 @@
+@SingalRHubsApi_HostAddress = http://localhost:5208
+
+GET {{SingalRHubsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
